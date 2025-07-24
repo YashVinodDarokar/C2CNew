@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
@@ -8,18 +9,14 @@ body {
 .hero {
   background-color: #001f3f;
   text-align: center;
-  padding: 100px 20px;
-  color: #ffcc00;
-  position: relative;
+  padding: 60px 20px;
+  color: #FFD700;
 }
 
 .logo {
-  background-color: #001f3f; 
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  width: 80px;
-  height: auto;
+  width: 100px;
+  display: block;
+  margin: 0 auto 20px;
 }
 
 .tagline {
@@ -34,34 +31,8 @@ section {
 }
 
 h2 {
-  color: #ffcc00;
+  color: #FFD700;
   margin-bottom: 20px;
-}
-
-.feature-box {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.feature {
-  width: 30%;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.feature img {
-  width: 50px;
-  margin-bottom: 10px;
-}
-
-.specs ul {
-  list-style: none;
-  padding: 0;
-}
-
-.specs li {
-  margin-bottom: 10px;
 }
 
 .gallery-images {
